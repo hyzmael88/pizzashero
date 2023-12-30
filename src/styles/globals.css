@@ -53,3 +53,6 @@ body {
 .especial{
   background: radial-gradient(109.47% 109.47% at 50% -9.47%, #BA4148 0%, rgba(255, 255, 255, 0.53) 0.01%, #FE9999 0.02%, #8A1931 65.1%, #5E091C 100%);
 }
+
+@import url('https://fonts.googleapis.com/css2?family=Lalezar&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');

@@ -26,3 +26,30 @@ body {
     rgb(var(--background-start-rgb));
 }
 
+.circular{
+  transform-origin: 0 100px;
+}
+
+.extravaganza{
+  background: radial-gradient(109.47% 109.47% at 50% -9.47%, #D10909 0%, rgba(255, 255, 255, 0.53) 0.01%, rgba(242, 15, 0, 0.00) 0.02%, #CB0C00 65.1%, rgba(118, 0, 0, 0.97) 100%);
+}
+
+.italiana{
+  background: radial-gradient(109.47% 109.47% at 50% -9.47%, #D18109 0%, rgba(255, 255, 255, 0.53) 0.01%, rgba(242, 160, 0, 0.00) 0.02%, #CB8600 65.1%, rgba(118, 56, 0, 0.97) 100%);
+}
+
+.mexicana{
+  background: radial-gradient(109.47% 109.47% at 50% -9.47%, #D19909 0%, rgba(255, 255, 255, 0.53) 0.01%, rgba(242, 218, 0, 0.00) 0.02%, #CBB600 65.1%, rgba(118, 106, 0, 0.97) 100%);
+}
+.veggie{
+  background: radial-gradient(109.47% 109.47% at 50% -9.47%, #D18109 0%, rgba(255, 255, 255, 0.53) 0.01%, rgba(194, 242, 0, 0.00) 0.02%, #96CB00 65.1%, rgba(31, 118, 0, 0.97) 100%);
+}
+.pepperoni{
+  background: radial-gradient(109.47% 109.47% at 50% -9.47%, #D18109 0%, rgba(255, 255, 255, 0.53) 0.01%, rgba(242, 0, 73, 0.00) 0.02%, #CB0024 65.1%, rgba(118, 0, 21, 0.97) 100%);
+}
+.deluxe{
+  background: radial-gradient(109.47% 109.47% at 50% -9.47%, rgba(255, 255, 255, 0.53) 0.01%, #6F911C 0.02%, #F4F67B 7.17%, #6F911C 65.1%, #476400 100%);
+}
+.especial{
+  background: radial-gradient(109.47% 109.47% at 50% -9.47%, #BA4148 0%, rgba(255, 255, 255, 0.53) 0.01%, #FE9999 0.02%, #8A1931 65.1%, #5E091C 100%);
+}

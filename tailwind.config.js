@@ -10,6 +10,7 @@ module.exports = {
       fontFamily: {
         'lalezar': ['Lalezar', 'sans-serif'],
         'lato': ['Lato', 'sans-serif'],
+        'lateef': ['Lato', 'sans-serif'],
       },
       backgroundImage: {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',

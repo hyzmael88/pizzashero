@@ -41,14 +41,19 @@ function Menu({ eleccion, setEleccion, pizzas, indice, sentido }) {
           className="w-[1152px] h-[1152px] rounded-full border-2 border-white flex items-center justify-center relative"
           style={{ borderRadius: "50%" }}
         >
-          <div className="w-[1098px] h-[1098px] rounded-full border-[2px] border-[#b0b0b051] flex items-center justify-center  opacity-32 ">
+          <div className="w-[1098px] h-[1098px] rounded-full border-[2px] border-[#b0b0b051] flex items-center 
+          justify-center  
+           ">
+            <div className="w-[949px] h-[949px] flex flex-row justify-center items-center overflow-hidden">
+
             <AnimatePresence mode="wait">
              <Pizza
             sentido={sentido}
             eleccion={eleccion}
             key={eleccion.name}
-             />
+            />
              </AnimatePresence>
+            </div>
            
           </div>
         </div>

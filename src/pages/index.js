@@ -35,7 +35,7 @@ export default function Home() {
     },
     {
       name: 'Italiana',
-      description: "¿Te gusta la pizza levemente picante? Esta mezcla de sabor te encantará! Prueba nuestra Pizza Italiana con queso mozzarella, champiñones y cebolla morada. Ideal para una tarde de películas.",
+      description: "¿Te gusta la pizza levemente picante? Esta mezcla de sabor te encantará! Prueba nuestra Pizza Italiana con queso mozzarella, champiñones y cebolla morada",
       image: italiana,
       ingredients: ingrediente2,
       gradient: "italiana"
@@ -49,7 +49,7 @@ export default function Home() {
     },
     {
       name: 'Veggie',
-      description: "Deliciosa y saludable variante que celebra la frescura y la diversidad de los vegetales. Sobre una base de masa perfectamente horneada se despliega un festín de colores y sabores, desde tomates, champiñones frescos, pimientos vibrantes y aceitunas.",
+      description: "Deliciosa y saludable variante que celebra la frescura y la diversidad de los vegetales. Sobre una base de masa perfectamente horneada se despliega un festín de colores y sabores",
       image: veggie,
       ingredients: ingrediente4,
       gradient: "veggie"

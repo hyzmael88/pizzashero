@@ -13,7 +13,7 @@ function Menu({ eleccion, setEleccion, pizzas, indice, sentido }) {
         {pizzasString.split(" ").map((pizza, i) => (
           <div
             key={i}
-            className=" text-white hover:text-black cursor-pointer
+            className=" text-white
         flex flex-col justify-center items-center
         "
             style={{

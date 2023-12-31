@@ -21,12 +21,12 @@ function Pizza({eleccion, sentido}) {
     variants={variants}
     initial="initial"
     animate="in"
-    className="w-full h-full "
+    className="w-[949px] h-[949px] p-6  "
   >
   <Image
   src={eleccion.image}
   alt={eleccion.name}
-  className='w-[949px] h-[949px] object-cover'
+  className='w-full h-full object-cover sombraPizza '
 />
   </motion.div>
   )

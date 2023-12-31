@@ -27,8 +27,8 @@ import { AnimatePresence } from 'framer-motion'
 export default function Home() {
   const pizzas = useMemo(() => [
     {
-      name: 'Extravaganza',
-      description: "¡Nuestra Pizza Extravaganza es una delicia que tienes que probar! Hecha con jamón, champiñones, cebolla morada y queso de cabra.",
+      name: 'Vaganza',
+      description: "¡Nuestra Pizza Vaganza es una delicia que tienes que probar! Hecha con jamón, champiñones, cebolla morada y queso de cabra.",
       image: extravaganza,
       ingredients: ingrediente1,
       gradient: "extravaganza"
